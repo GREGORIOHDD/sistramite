@@ -1,13 +1,13 @@
 ﻿<?php
 session_regenerate_id(TRUE);
-$con = mysqli_connect("localhost","root","");
+$con = mysqli_connect("localhost","gregorio","PA12jh34");
 if (!$con)
   {
   die('Could not connect: '.mysqli_error($con));
   }
 
 
-mysqli_select_db($con,'mydb9eng');
+mysqli_select_db($con,'bdsistramdoc');
 
 $table='table2';
 
